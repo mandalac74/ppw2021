@@ -1,0 +1,55 @@
+body {
+    background: #C4DFE6;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav:before {
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    
+    
+}
+
+ul li {
+float: left;
+}
+
+ul li a {
+    color: #000000;
+    display: block;
+    height: 50px;
+    padding: 0 90px;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+ul li a:hover {
+    background: #66A5AD;
+}
+
+.text {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.text1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
